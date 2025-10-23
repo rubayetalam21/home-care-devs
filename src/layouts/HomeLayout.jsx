@@ -3,7 +3,7 @@ import { Outlet } from 'react-router';
 
 const HomeLayout = () => {
     return (
-        <div>
+        <div className='w-11/12 mx-auto'>
             <main>
                 <Outlet></Outlet>
             </main>
